@@ -1,0 +1,19 @@
+{% extends "AppTrabajoFinal/padre.html" %}
+
+{% load static %}
+
+    {% block titulo_de_pagina %}
+    
+    <a class="btn btn-success" href="{% url 'personasFormulario' %}">Crear Persona</a>
+    
+    {% endblock %}
+
+
+    {% block contenido %}
+    
+<div style="color:red">
+    {{ mensaje }}
+</div>
+    
+        
+    {% endblock %}
